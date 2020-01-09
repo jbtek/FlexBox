@@ -15,8 +15,7 @@ manipulate collections of objects that are different yet have many
 similar characteristics.*/
 
 //This create an instance of subclass behalf of type
-class BallFactory {
-    constructor() {
+function BallFactory () {
         this.createBall = function(type) {
             let ball;
             if (type === 'football' || type === 'soccer') ball = new Football();
@@ -27,25 +26,20 @@ class BallFactory {
 
             return ball;
         };
-    }
 }
 
-class Football {
-    constructor() {
-        this._type = 'football';
+function Football() {
+        this.type = 'football';
         this.kick = function() {
             return 'You kicked the football.';
         };
-    }
 }
 
-class Basketball {
-    constructor() {
-        this._type = 'basketball';
+function Basketball() {
+        this.type = 'basketball';
         this.bounce = function() {
             return 'You bounced the basketball.';
         };
-    }
 }
 
 
@@ -54,7 +48,7 @@ const factory = new BallFactory();
 
 const myFootball = factory.createBall('football');
 const myBasketball = factory.createBall('basketball');
-
+console.log('--------ES5--------');
 console.log(myFootball.roll()); // The football is rolling.
 console.log(myBasketball.roll()); // The basketball is rolling.
 console.log(myFootball.kick()); // You kicked the football.
