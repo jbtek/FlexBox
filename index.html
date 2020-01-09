@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+</div>
+<ul class="navigation">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+<div class="container1">
+    <div class="row1">
+    <div class="item1"><span class="square"></span></div>
+    <div class="item1"><span class="square"></span></div>
+    </div>
+    <div class="row2">Lorem Epsum</div>
+    <div class="row1">
+        <div ><span class="square"></span></div>
+        <div ><span class="square"></span></div>
+    </div>
+    <div class="row2">Lorem Epsum</div>
+    <div class="row1">
+        <div ><span class="square"></span></div>
+        <div ><span class="square"></span></div>
+    </div>
+</div>
+
+
+<input type="text" value="100" firstname="Jaychandra"/>
+<fancy-label customData="`${obj}`"></fancy-label>
+<input type="text" onkeypress="updateName(this)" placeholder="Name">
+<input type="text" onkeypress="updateAddress(this)" placeholder="Address">
+<input type="checkbox" onchange="toggleAdminStatus(this)" placeholder="Name">
+<user-card username="Ayush" address="Indore, India" is-admin></user-card>
+<script>
+    const obj = {key:'j_key',value:'100'}
+    function updateAddress(elem) {
+        document.querySelector('user-card').setAttribute('address', elem.value);
+    }
+
+    function updateName(elem) {
+        document.querySelector('user-card').setAttribute('username', elem.value);
+    }
+
+    function toggleAdminStatus(elem) {
+        document.querySelector('user-card').setAttribute('is-admin', elem.checked);
+    }
+</script>
+<script src="./index.js" type="module"></script>
+</body>
+</html>
