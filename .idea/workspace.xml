@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e85b9af-7721-4a15-b58b-a0b730a1d700" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/PrototypePattern.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/PrototypePattern.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +30,7 @@
           <entry key="designpattern" value="1" />
           <entry key="html" value="2" />
           <entry key="iml" value="1" />
-          <entry key="js" value="14" />
+          <entry key="js" value="15" />
           <entry key="json" value="1" />
           <entry key="ts" value="4" />
         </counts>
@@ -41,7 +41,7 @@
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="4" />
         </counts>
@@ -51,14 +51,14 @@
           <entry key="css" value="750" />
           <entry key="designpattern" value="93" />
           <entry key="html" value="564" />
-          <entry key="js" value="3334" />
+          <entry key="js" value="3377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="750" />
           <entry key="HTML" value="564" />
-          <entry key="JavaScript" value="3334" />
+          <entry key="JavaScript" value="3377" />
           <entry key="PLAIN_TEXT" value="93" />
         </counts>
       </usages-collector>
@@ -67,10 +67,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="114">
+              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/PrototypePattern.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -214,10 +217,10 @@
         <option value="$PROJECT_DIR$/src/designpatterns/CreationalPatterns/SingletonPattern.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/CreationalPatterns/ConstructorPattern.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/ES5/ConstructorPattern.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/ConstructorPattern.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/FactoryPattern.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/ES6/CreationalPatterns/FactoryPattern.js" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/PrototypePattern.js" />
       </list>
     </option>
@@ -277,21 +280,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
               <item name="ES5" type="462c0819:PsiDirectoryNode" />
-              <item name="CreationalPatterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlexBox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlexBox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="ES6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlexBox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlexBox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="ES6" type="462c0819:PsiDirectoryNode" />
               <item name="CreationalPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -397,18 +385,18 @@
       <workItem from="1578482276216" duration="144000" />
       <workItem from="1578538443185" duration="2686000" />
       <workItem from="1578549832714" duration="2536000" />
-      <workItem from="1578648114390" duration="1758000" />
+      <workItem from="1578648114390" duration="2101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50752000" />
+    <option name="totallyTimeSpent" value="51095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11815562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2939481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -587,10 +565,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpatterns/ES5/CreationalPatterns/PrototypePattern.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        <state relative-caret-position="354">
+          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

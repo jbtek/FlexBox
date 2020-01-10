@@ -58,7 +58,8 @@ const lenardo = new Warrior('Lenardo')
 
 sam.bash(lenardo)
 
-console.log(sam.bash === lenardo.bash)
+console.log(sam.bash === lenardo.bash);
+export {Warrior};
 
 //Alternative way to create prototype object
 const Warrior1 = function(name) {
@@ -79,6 +80,7 @@ Warrior1.prototype = {
     },
 }
 
+export {Warrior1}
 /*
 In our code example above, we defined a warrior's attack methods by using Warrior.prototype.<method> = function() {...}.
 You can see that we instantiated some warriors with the new keyword so now we are looking at two instances.
@@ -90,7 +92,7 @@ the two separate instances we're looking at are actually referencing the same ba
 
 //If we create Warrior like this it will create different objects and not point to same property and methods.
 
-const Warrior = function(name) {
+const Warrior2 = function(name) {
     this.name = name
     this.hp = 100
 
@@ -107,7 +109,8 @@ const Warrior = function(name) {
     }
 }
 
-const sam = new Warrior('Sam')
-const lenardo = new Warrior('Lenardo')
+const sam1 = new Warrior2('Sam')
+const lenardo1 = new Warrior2('Lenardo')
 
-console.log(sam.bash === lenardo.bash) // false
+console.log(sam1.bash === lenardo1.bash) // false
+export {Warrior2}
