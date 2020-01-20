@@ -16,3 +16,79 @@
  the mongo object, is returned.
  */
 
+const Singleton = (function () {
+    let instance;
+
+    function createInstance() {
+        var object = new Object("I am the instance");
+        return object;
+    }
+
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+const instance1 = Singleton.getInstance();
+const instance2 = Singleton.getInstance();
+
+alert("Same instance? " + (instance1 === instance2));
+export {Singleton}
+
+//Another way of creating singleton pattern
+const mySingleton = (function () {
+
+    // Instance stores a reference to the Singleton
+    let instance;
+
+    function init() {
+
+        // Singleton
+
+        // Private methods and variables
+        function privateMethod(){
+            console.log( "I am private" );
+        }
+
+        let privateVariable = "Im also private";
+
+        let privateRandomNumber = Math.random();
+
+        return {
+
+            // Public methods and variables
+            publicMethod: function () {
+                console.log( "The public can see me!" );
+            },
+
+            publicProperty: "I am also public",
+
+            getRandomNumber: function() {
+                return privateRandomNumber;
+            }
+
+        };
+
+    };
+
+    return {
+
+        // Get the Singleton instance if one exists
+        // or create one if it doesn't
+        getInstance: function () {
+
+            if ( !instance ) {
+                instance = init();
+            }
+
+            return instance;
+        }
+
+    };
+
+})();
+

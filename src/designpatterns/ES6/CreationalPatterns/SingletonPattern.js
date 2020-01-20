@@ -15,4 +15,23 @@
  the reference to the object that was instantiated earlier, i.e.
  the mongo object, is returned.
  */
+class SingletonPattern {
+    constructor() {
+        // the class constructor
+        if(! SingletonPattern.instance){
+            SingletonPattern.instance = this;
+        }
+        return SingletonPattern.instance;
+    }
 
+    publicMethod() {
+        console.log('Public Method');
+    }
+}
+
+const instance = new SingletonPattern();
+
+// prevents new properties from being added to the object
+Object.freeze(instance);
+SingletonPattern.instance.publicMethod()
+export default instance;
