@@ -25,7 +25,6 @@ else{
 }
 console.log('filename::', filename);
 try{
-    fs.fi
     fs.accessSync(filename, fs.F_OK);
     let fileStream = fs.createReadStream(filename);
     let mimeType = mimeTypes[path.extname(filename).split(".")[1]];

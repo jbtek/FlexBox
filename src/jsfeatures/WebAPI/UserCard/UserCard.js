@@ -1,5 +1,5 @@
 const userCard = (async () => {
-        const res = await fetch('./src/UserCard/UserCard.html');
+        const res = await fetch('./src/jsfeatures/WebAPI/UserCard/UserCard.html');
         const textTemplate = await res.text();
         const HTMLTemplate = new DOMParser().parseFromString(textTemplate, 'text/html')
             .querySelector('template');
@@ -9,7 +9,7 @@ const userCard = (async () => {
                 super();
             }
             connectedCallback() {
-                const shadowRoot = this.attachShadow({ mode: 'open' });
+                const shadowRoot = this.attachShadow({ mode: 'closed' });
                 const instance = HTMLTemplate.content.cloneNode(true);
                 console.log('connectedCallback::', HTMLTemplate);
                 shadowRoot.appendChild(instance);

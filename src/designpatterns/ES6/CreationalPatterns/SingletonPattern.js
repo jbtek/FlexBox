@@ -33,5 +33,5 @@ const instance = new SingletonPattern();
 
 // prevents new properties from being added to the object
 Object.freeze(instance);
-SingletonPattern.instance.publicMethod()
+SingletonPattern.instance.publicMethod();
 export default instance;
