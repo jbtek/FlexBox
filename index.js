@@ -7,6 +7,8 @@ import {reversArr} from "./src/AlgorithmAndDataStructure/reversearray.js";
 import {Singleton} from "./src/designpatterns/ES5/CreationalPatterns/SingletonPattern.js";
 //this is the default export.
 import instance from './src/designpatterns/ES6/CreationalPatterns/SingletonPattern.js'
+import {menuItem} from './src/jsfeatures/WebAPI/MenuSubMenuList/MenuItem.js'
+import {checkTypes} from "./src/jsfeatures/CustomFnImplementation.js";
 
 export {fancyLabel, userCard, ConstructorPattern,
     constructorPattern,
@@ -15,5 +17,6 @@ export {fancyLabel, userCard, ConstructorPattern,
     Warrior2,
     reversArr,
     Singleton,
-    instance
+    instance,
+    menuItem
 };
