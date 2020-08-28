@@ -165,3 +165,21 @@ var containsDuplicate = function(nums) {
 };
 
 containsDuplicate([0,4,5,0,3,6])
+
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ * Input: s = "anagram", t = "nagaram"
+ Output: true
+ Example 2:
+
+ Input: s = "rat", t = "car"
+ Output: false
+ */
+var isAnagram = function(s, t) {
+    let s1 = s.split('').sort().join();
+    let s2 = t.split('').sort().join();
+
+    return s1 === s2
+};
