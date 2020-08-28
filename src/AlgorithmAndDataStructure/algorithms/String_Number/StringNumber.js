@@ -146,3 +146,22 @@ var getSum = function(a, b) {
     const sum = arr.reduce((acc, currValue) => (acc +=currValue), 0);
     return sum;
 };
+
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+var containsDuplicate = function(nums) {
+    // nums = [0,4,5,0,3,6]
+    const obj = {};
+    for(var i = 0; i< nums.length; i++){
+        if(!obj[nums[i]] && obj[nums[i]] !== 0){
+            obj[nums[i]] = nums[i];
+        } else {
+            return true
+        }
+    }
+    return false;
+};
+
+containsDuplicate([0,4,5,0,3,6])
