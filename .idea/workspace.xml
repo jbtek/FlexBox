@@ -58,7 +58,7 @@
           <entry key="designpattern" value="94" />
           <entry key="gitignore" value="40" />
           <entry key="html" value="870" />
-          <entry key="js" value="10784" />
+          <entry key="js" value="10791" />
           <entry key="json" value="133" />
         </counts>
       </usages-collector>
@@ -67,7 +67,7 @@
           <entry key="CSS" value="788" />
           <entry key="HTML" value="870" />
           <entry key="JSON" value="133" />
-          <entry key="JavaScript" value="10784" />
+          <entry key="JavaScript" value="10791" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+            <state relative-caret-position="2576">
+              <caret line="226" column="30" selection-start-line="226" selection-start-column="30" selection-end-line="226" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -266,7 +266,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598633687373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598639589763" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -389,12 +389,12 @@
       <workItem from="1598524980521" duration="1095000" />
       <workItem from="1598527167741" duration="588000" />
       <workItem from="1598580161488" duration="5659000" />
-      <workItem from="1598613988043" duration="4799000" />
+      <workItem from="1598613988043" duration="6286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134434000" />
+    <option name="totallyTimeSpent" value="135921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
@@ -752,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+        <state relative-caret-position="2576">
+          <caret line="226" column="30" selection-start-line="226" selection-start-column="30" selection-end-line="226" selection-end-column="30" />
         </state>
       </provider>
     </entry>

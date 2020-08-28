@@ -183,3 +183,45 @@ var isAnagram = function(s, t) {
 
     return s1 === s2
 };
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var firstUniqChar = function(s) {
+    // s = 'loveleetcode'
+    // s = "aadadaad"
+    // s = 'bd'
+    // s = "aaadd"
+    var map = new Map;
+    let ind = -1;
+    let count = 0
+    if(s === '') {
+        return -1
+    }
+    if(s.length === 1){
+        return 0
+    }
+    for(var i = 0; i<s.length; i++){
+        if(!map.has(s[i])){
+            count = 1
+            var obj = {char:s[i], count:count, index:i};
+            map.set(s[i], obj);
+        } else {
+            count ++;
+            let repeatedChar = map.get(s[i]);
+            repeatedChar.count = count;
+            map.set(s[i], repeatedChar)
+        }
+    }
+    const arr = [...map];
+    for(let i = 0; i< arr.length; i++){
+        if(arr[i] && arr[i][1] && arr[i][1].count === 1){
+            ind = arr[i][1].index;
+            break;
+        }
+    }
+    return ind
+};
+
+firstUniqChar('loveleetcode');
