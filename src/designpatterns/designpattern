@@ -20,7 +20,8 @@ Prototype Pattern,
 and Singleton Pattern.
 
 2.Structural Design Patterns
-These patterns are concerned with class and object composition. They help structure or restructure one or more parts without affecting the entire system. In other words, they help obtain new functionalities without tampering with the existing ones.
+These patterns are concerned with class and object composition. They help structure or restructure one or more parts without affecting the entire system. In other words,
+they help obtain new functionalities without tampering with the existing ones.
 We will discuss the following patterns in detail:
 Adapter Pattern,
 Composite Pattern,

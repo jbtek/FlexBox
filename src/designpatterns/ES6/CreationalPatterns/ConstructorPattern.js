@@ -7,7 +7,7 @@ export class ConstructorPattern {
         this.address = address;
     }
 
-    showName = () =>{
+    showName(){
        console.log(this.name + ':::' + this.address);
     }
 }
