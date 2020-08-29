@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e85b9af-7721-4a15-b58b-a0b730a1d700" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,14 +16,14 @@
     <session id="649391383">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="9" />
+          <entry key="project.open.time.5" value="10" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="16" />
           <entry key="iml" value="1" />
-          <entry key="js" value="181" />
+          <entry key="js" value="183" />
           <entry key="json" value="7" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="24" />
@@ -45,7 +46,7 @@
           <entry key="HTML" value="16" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="181" />
+          <entry key="JavaScript" value="183" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="24" />
@@ -58,7 +59,7 @@
           <entry key="designpattern" value="94" />
           <entry key="gitignore" value="40" />
           <entry key="html" value="870" />
-          <entry key="js" value="10791" />
+          <entry key="js" value="10863" />
           <entry key="json" value="133" />
         </counts>
       </usages-collector>
@@ -67,7 +68,7 @@
           <entry key="CSS" value="788" />
           <entry key="HTML" value="870" />
           <entry key="JSON" value="133" />
-          <entry key="JavaScript" value="10791" />
+          <entry key="JavaScript" value="10863" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -83,8 +84,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2576">
-              <caret line="226" column="30" selection-start-line="226" selection-start-column="30" selection-end-line="226" selection-end-column="30" />
+            <state relative-caret-position="277">
+              <caret line="267" column="45" lean-forward="true" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/reversearray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/sortarrayandobject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-597">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -207,6 +226,9 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,16 +279,13 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598639589763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598639592269" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -389,18 +408,19 @@
       <workItem from="1598524980521" duration="1095000" />
       <workItem from="1598527167741" duration="588000" />
       <workItem from="1598580161488" duration="5659000" />
-      <workItem from="1598613988043" duration="6286000" />
+      <workItem from="1598613988043" duration="6311000" />
+      <workItem from="1598698773396" duration="288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135921000" />
+    <option name="totallyTimeSpent" value="136234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29538906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30043226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -658,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/reversearray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -676,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,17 +753,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/reversearray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/sortarrayandobject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="-597">
           <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AlgorithmAndDataStructure/algorithms/String_Number/StringNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
-          <caret line="226" column="30" selection-start-line="226" selection-start-column="30" selection-end-line="226" selection-end-column="30" />
+        <state relative-caret-position="277">
+          <caret line="267" column="45" lean-forward="true" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
         </state>
       </provider>
     </entry>

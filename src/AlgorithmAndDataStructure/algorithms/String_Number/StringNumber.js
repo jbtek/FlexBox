@@ -225,3 +225,58 @@ var firstUniqChar = function(s) {
 };
 
 firstUniqChar('loveleetcode');
+
+
+const input = [
+    {
+        id:10001,
+        score:'score1'
+    },
+    {
+        id:10002,
+        score:'score2'
+    },
+    {
+        id:10003,
+        score:'score3'
+    }
+]
+
+// const output = [
+//   {
+//     '10001':{
+//       newScore:'score1'
+//     }
+//   },
+//   {
+//     '10002':{
+//       newScore:'score2'
+//     }
+//   },
+//   {
+//     '10003':{
+//       newScore:'score3'
+//     }
+//   }
+// ]
+function convertNestedObj(input){
+    const output = [];
+    for(let i = 0; i <input.length; i++){
+        let item = input[i];
+        let id = item.id;
+        var obj = {};
+        let newItem = {newScore: item.score};
+        obj[id] = newItem;
+        output.push(obj)
+    }
+    console.log(output)
+    //using map
+    let map = new Map();
+    for(let i = 0; i <input.length; i++){
+        let item = input[i];
+        map.set(item.id, {'newScore': item.score});
+    }
+    console.log([...Object.fromEntries(map)])
+}
+
+convertNestedObj(input)
